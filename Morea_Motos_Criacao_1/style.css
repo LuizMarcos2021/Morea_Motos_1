@@ -1,0 +1,133 @@
+/*tag's*/
+
+header{
+	background-color: #0a0000;
+	height:90px;
+	padding:20px;
+
+}
+
+
+img{
+	 position: absolute;
+     width: 200px;
+     height: 150px;
+ 	 left: 2%;  
+ 	 top: -1%;
+}
+
+
+h1{
+	position: absolute;
+	font-size: helvetica;
+	font-size: 55px;
+	left: 18%;
+	top:3%;
+	color:#F0F8FF;
+}
+h2{
+	position: absolute;
+	/*text-align: center;*/
+	left: 40%;
+	margin: 0 0 50px 0;
+	color:#F0F8FF;
+	font-size: 35px;
+	text-shadow: 8px 8px 8px #111111;
+
+}
+
+h3{
+	color:#F0F8FF;
+	position: absolute;
+	left: 18%;
+	top:12%;
+}
+
+h4{
+	color:#F0F8FF;
+	position: absolute;
+	left: 18%;
+	top:15%;
+}
+
+footer{
+	background-color:#0a0000;
+	text-align: center;
+	clear: both;
+	height: 50px;
+	padding:10px;
+
+}
+
+a{
+	color:#FFFFF0;
+	font-size: 15px;
+}
+
+p{ 
+	position: absolute;
+	font-size: 20px;
+	color:#FFFFF0 ;
+	top: 50%;
+	text-align: center;
+	text-shadow: 3px 3px 3px #111111;
+
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica,arial;
+}
+
+/*Efeito de Sombra*/
+
+.efeito{
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 50px 0 160px 0;
+}
+
+
+.container{
+	width: 980px;
+	margin: 0 auto;
+	display: inline-block;
+
+}
+/*id's*/
+
+/*Imagem de Fundo*/
+
+#principal{
+	background-image: url('loja.jpeg');
+	clear:both;
+	background-size: 100%;
+	min-height: 390px;
+	padding:80px 0 0 0;
+}
+
+#logo{
+	float:left;
+
+}
+
+#menu{
+	position: absolute;
+	left: 67%;
+	margin-top:20px;
+	float:right;
+	color:#F0F8FF;
+}
+
+#menu a{
+	padding: 55px 10px ;
+	text-decoration: none;
+	color:#F0F8FF;
+	text-shadow: 1px 1px #111111;
+	font-size: 18px;
+}
+
+#menu a:hover{
+	background-color: blue;
+}
